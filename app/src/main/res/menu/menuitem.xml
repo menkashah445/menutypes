@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:orderInCategory="@integer/material_motion_duration_medium_2"
+        android:title="home" >
+        <menu>
+            <item
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:showAsAction="collapseActionView"
+                android:id="@+id/home4"
+                android:icon="@drawable/baseline_home_24"
+                android:orderInCategory="@integer/material_motion_duration_medium_2"
+                android:title="home" />
+            <item
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:showAsAction="collapseActionView"
+                android:id="@+id/setting4"
+                android:icon="@drawable/baseline_settings_24"
+                android:orderInCategory="@integer/material_motion_duration_medium_2"
+                android:title="setting" />
+        </menu>
+    </item>
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:orderInCategory="@integer/material_motion_duration_medium_2"
+        android:title="setting" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/phone"
+        android:icon="@drawable/baseline_local_phone_24"
+        android:orderInCategory="@integer/material_motion_duration_medium_2"
+        android:title="Phone" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:id="@+id/about"
+        android:icon="@drawable/baseline_roundabout_right_24"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="@integer/material_motion_duration_medium_2"
+        android:title="About "/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/more"
+        android:icon="@drawable/baseline_more_24"
+        android:orderInCategory="@integer/material_motion_duration_medium_2"
+        android:title="More" />
+</menu>

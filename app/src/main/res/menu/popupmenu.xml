@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:orderInCategory="@integer/material_motion_duration_medium_2"
+        android:title="setting" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/phone"
+        android:icon="@drawable/baseline_local_phone_24"
+        android:orderInCategory="@integer/material_motion_duration_medium_2"
+        android:title="Phone" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:icon="@drawable/baseline_roundabout_right_24"
+
+        android:orderInCategory="@integer/material_motion_duration_medium_2"
+        android:title="about">
+
+    </item>
+</menu>
